@@ -51,8 +51,8 @@ Clone or download this repository.
 ### **Customizing Audio Languages**
 
 1. Open download.py in a text editor.  
-2. Find the `LANGS_TO_DOWNLOAD` list (around line 24).  
-3. Modify this list with your desired language codes. See the ALL\_LANGS dictionary for all available options.  
+2. Find the `LANGS_TO_DOWNLOAD` list (on line 20).  
+3. Modify this list with your desired language codes. See the `ALL_LANGS` dictionary for all available options.  
    \# Example: To download Polish and German audio  
    `LANGS_TO_DOWNLOAD = ["audio_pl", "audio_de"]`
 
